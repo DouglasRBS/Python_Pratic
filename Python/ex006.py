@@ -1,11 +1,7 @@
-n1 = int(input('Digite algo:'))
-n2 = int(input('Digite outro: '))
+n = int(input('Digite algo:'))
+d = n * 2
+t = n * 3
+r = n ** (1/2)
 
-s = n1 + n2
-m = n1 * n2
-d = n1 / n2
-ri = n1 ** n2
-di = n1 // n2
-
-print('O valor é {}, Multi: {}, divisao {}, '.format(s, m, d))
-print('A potencia é {} e a divisao inteira é {}'.format(ri, di))
+print('O dobro de {} vale {}.' .format(n, d ))
+print('O triplo e {} vale {}.\nA raiz quadrada de {} é igual a {:.2f}.' .format(n, t, n, r))
